@@ -1,24 +1,5 @@
 [
   {
-  "name": "shoestore",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://addd28.github.io/shoe-store",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  }
-}
-  {
     "id": "n1",
     "name": "Nike Air Zoom Pegasus",
     "price": 2390000,

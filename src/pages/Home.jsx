@@ -31,7 +31,7 @@ const Home = () => {
       <section className="hero-section">
         <video
           className="hero-video"
-          src="/assets/hero.mp4"
+          src="hero.mp4"
           autoPlay
           loop
           muted
@@ -82,7 +82,7 @@ const Home = () => {
 
       {/* 🛍️ Featured Products */}
       <section className="featured-section container">
-        <h2 className="section-title">Sản phẩm nổi bật</h2>
+        <h2 className="section-title">Outstanding product</h2>
         <div className="featured-grid">
           {featured.map((item) => (
             <div
