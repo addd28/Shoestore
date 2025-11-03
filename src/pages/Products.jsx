@@ -1,4 +1,3 @@
-// src/pages/Products.jsx
 import React, { useState, useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { ShoppingCart } from "lucide-react";
@@ -47,7 +46,7 @@ const Products = () => {
         flexWrap: "wrap",
         gap: "1rem",
         marginBottom: "2rem",
-        paddingLeft: "6%",  // ✅ Căn lề giống tiêu đề
+        paddingLeft: "6%", 
         paddingRight: "6%"
       }}>
         <input
